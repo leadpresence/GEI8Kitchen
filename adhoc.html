@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       <title>GEI8 Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<style type="text/css">
+    .orderbtn{border-radius: 20px;}
+.mealpriceClass{display: none;}
+    }
+}
+</style>
+</head> 
+<body>
+
+
+
+
+<ul class="topnav" id="myTopnav">
+      <li ><a  href="./index.html" class="logo"><img src="a.png" alt=""></a></li>
+
+
+      
+            <li><a class="pages" href="#">Special Offer</a></li>
+            <li><a class="pages" href="#">Delivery</a></li>
+            <li><a class="pages" href="#">Contact Us</a></li>
+            <li class="icon"><a href="javascript:void(0);" class="iconr" style="font-size:15px;" onclick="myFunction()">&#9776;</a></li>
+</ul>
+
+
+
+   <div class="slider">
+   
+        <div class="slides fade">
+
+            <img src="1.png" >
+
+        </div>
+
+        <div class="slides fade">
+        <img src="2.png" >
+
+        </div>
+
+        <div class="slides fade">
+        
+            <img src="3.png" >
+
+        </div>
+
+        <div class="slides fade">
+        
+            <img src="4.png"  >
+
+        </div>
+
+        <div class="slides fade">
+        
+            <img src="5.png" >
+
+        </div>
+
+    </div>
+    
+        
+            <div class="clear"></div>
+    <div class="dotBar">
+        <span class="dots" onclick="currentImg(1)"></span>
+        <span class="dots" onclick="currentImg(2)"></span>
+        <span class="dots" onclick="currentImg(3)"></span>
+        <span class="dots" onclick="currentImg(4)"></span>
+        <span class="dots" onclick="currentImg(5)"></span>
+    </div>
+
+
+ 
+
+
+
+
+<div class="card">
+    <img src="1.jpg" alt="" width="100%">
+    <div class="detail">
+    <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 01</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    
+    <input class="btn" type="button"  id="meal01" value="Order Meal1" ><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+    <input type="text" name="meal01Price" id="meal01Price" class="mealpriceClass" value="10500">
+</div>
+    </center>
+    </div>
+</div>
+
+
+<div class="card">
+    <img src="2.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 02</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal02" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="3.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal03</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal03" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="4.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 04</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal04" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="5.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 05</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal05" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="6.jpg" alt="" width="100%">
+    <div class="detail">
+    <center>
+          <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 06</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal06" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="7.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 07</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal07" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="8.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 08</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal08" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+
+<div class="card">
+    <img src="10.jpg" alt="" width="100%">
+    <div class="detail">
+     <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 09</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal09" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+<div class="card">
+    <img src="11.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 10</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal10" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="12.jpg" alt="" width="100%">
+    <div class="detail">
+      <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 11</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal11" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="13.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 12</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal12" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="14.jpg" alt="" width="100%">
+    <div class="detail">
+      <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 13</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal13" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="15.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 14</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal 14" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+
+<div class="card">
+    <img src="16.jpg" alt="" width="100%">
+    <div class="detail">
+      <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 15</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal15" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+<div class="card">
+    <img src="9.jpg" alt="" width="100%">
+    <div class="detail">
+       <center>
+        <div class="card-body">
+        <h4 id="prdct1">meal 16</h4>
+    <p>I am a paragraph on the details of this meal</p>
+    <input class="btn btn-primary orderbtn" type="button"  id="meal16" value="Order Meal" class="b"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></input>
+</div>
+    </center>
+    </div>
+</div>
+    <div class="clear"></div>
+<br>
+<center>
+<ul class="pagination">
+  <li><a href="#">&laquo;</a></li>
+  <li><a class="active" href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">6</a></li>
+  <li><a href="#">&raquo;</a></li>
+</ul>
+</center>
+
+    <div class="footer">
+        <div class="info">
+        <h4>ACCOUNT</h4>
+        <a href="">YOUR ACCOUNT</a><br>
+        <a href="">PERSONAL INFORMATION</a>
+<br>        <a href="">ADDRESSES</a>
+    <br>    <a href="">DISCOUNT</a>
+        <br><a href="">ORDER HISTORY</a>
+        </div>
+
+        <div class="info">
+        <h4>INFORMATION</h4>
+        <a href="">CONTACT</a>
+ <br>       <a href="">REGISTRATION</a>
+     <br>   <a href="">LEGAL NOTICE</a>
+        <br><a href="">TERMS AND CONDITIONS</a>
+        <br><a href="">FAQ</a>
+        </div>
+
+        <div class="info">
+        <h4>OUR OFFERS</h4>
+        <a href="">NEW mealS</a>
+        <br><a href="">TOP SELLERS</a>
+        <br><a href="">SPECIAL OFFERS</a>
+        <br><a href="">MANUFACTURERS</a>
+        <br><a href="">SUPPLIERS</a>
+        </div>
+
+        <div class="info">
+        <h4>SOCIAL MEDIA</h4>
+        <!--<br><a href=""><img src="" alt=""></a>
+        <br><a href=""><img src="" alt=""></a>
+        <br><a href=""><img src="" alt=""></a>-->
+        </div>     
+        
+
+    </div>
+
+
+
+
+
+
+<script type="text/javascript" src="/bootstrap.min.js"></script>
+<script type="text/javascript" src="jquery-3.3.1.slim.min.js"></script>
+<script type="text/javascript" src="popper.min.js"></script>
+
+    
+<script src="app.js"></script>
+<script type="text/javascript">
+    function myAlert(){
+        alert("helo");
+    }
+    
+    //This gets the buttons
+        let buttons = document.getElementsByClassName("btn");
+        let price=document.getElementsByClassName("mealpriceClass");
+        //This is the event listener. It receives an event object
+        //redirects to google with the ID of the clicked button
+        function buttonClicked(event) {
+            let clickedButton = event.target;
+            let clickedButtonId = clickedButton.id;
+             window.location = "http://google.com/search?q=" + clickedButtonId; 
+           /** if(clickedButtonId =="meal01"){
+                
+            var p=document.getElementById("meal01Price").value;
+            var name=document.getElementById("meal01");
+                localStorage.setItem=("name",name);
+                localStorage.setItem=("p",p);}
+            //localstorage.setItem=("");
+        }
+*/
+        //This loops through the buttons and attaches the event listener to each one
+        for (button of buttons) {
+            button.addEventListener("click", buttonClicked);
+        }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
